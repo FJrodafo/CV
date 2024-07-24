@@ -57,6 +57,19 @@ App/
 
 ## Run it!
 
+Open your directory where you save your repositories and clone it with the following command:
+
+```shell
+# GitHub
+git clone https://github.com/FJrodafo/CV.git
+
+# GitLab
+git clone https://gitlab.com/FJrodafo/CV.git
+
+# Bitbucket
+git clone https://bitbucket.org/fjrodafo/cv.git
+```
+
 This project must be initialized and the necessary dependencies installed with the following command (Make sure you are in the `App` directory):
 
 ```shell
