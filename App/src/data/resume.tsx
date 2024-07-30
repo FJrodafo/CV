@@ -122,6 +122,24 @@ export const RESUME_DATA = {
       },
     },
     {
+      title: "Website",
+      techStack: ["App", "JavaScript"],
+      description: "My professional minimalist website!",
+      link: {
+        label: "github.com",
+        href: "https://github.com/FJrodafo/Website",
+      },
+    },
+    {
+      title: "CV",
+      techStack: ["App", "TypeScript"],
+      description: "My professional minimalist curriculum vitae!",
+      link: {
+        label: "github.com",
+        href: "https://github.com/FJrodafo/CV",
+      },
+    },
+    {
       title: "free-port",
       techStack: ["Package", "JavaScript"],
       description: "Fast and minimalist port finder!",
