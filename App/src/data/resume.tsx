@@ -113,6 +113,15 @@ export const RESUME_DATA = {
       },
     },
     {
+      title: "DiscordCRPS",
+      techStack: ["App", "JavaScript"],
+      description: "A simple Discord Custom Rich Presence Status made in JavaScript!",
+      link: {
+        label: "github.com",
+        href: "https://github.com/FJrodafo/DiscordCRPS",
+      },
+    },
+    {
       title: "dauntless-builder",
       techStack: ["Contribution", "TypeScript"],
       description: "Create and share Dauntless builds with your friends!",
