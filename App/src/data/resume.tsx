@@ -131,6 +131,15 @@ export const RESUME_DATA = {
       },
     },
     {
+      title: "dauntless-leaderboards",
+      techStack: ["Contribution", "TypeScript"],
+      description: "Dauntless Gauntlet and Trial leaderboards!",
+      link: {
+        label: "github.com",
+        href: "https://github.com/PierreYvesFlamand/Dauntless-Leaderboards",
+      },
+    },
+    {
       title: "Website",
       techStack: ["App", "JavaScript"],
       description: "My professional minimalist website!",
