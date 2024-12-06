@@ -122,12 +122,12 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "dauntless-builder",
+      title: "dauntless-builder-legacy",
       techStack: ["Contribution", "TypeScript"],
       description: "Create and share Dauntless builds with your friends!",
       link: {
         label: "github.com",
-        href: "https://github.com/atomicptr/dauntless-builder",
+        href: "https://github.com/atomicptr/dauntless-builder-legacy",
       },
     },
     {
@@ -137,24 +137,6 @@ export const RESUME_DATA = {
       link: {
         label: "github.com",
         href: "https://github.com/PierreYvesFlamand/Dauntless-Leaderboards",
-      },
-    },
-    {
-      title: "Website",
-      techStack: ["App", "JavaScript"],
-      description: "My professional minimalist website!",
-      link: {
-        label: "github.com",
-        href: "https://github.com/FJrodafo/Website",
-      },
-    },
-    {
-      title: "CV",
-      techStack: ["App", "TypeScript"],
-      description: "My professional minimalist curriculum vitae!",
-      link: {
-        label: "github.com",
-        href: "https://github.com/FJrodafo/CV",
       },
     },
     {
