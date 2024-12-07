@@ -148,14 +148,5 @@ export const RESUME_DATA = {
         href: "https://github.com/FJrodafo/free-port",
       },
     },
-    {
-      title: "colors",
-      techStack: ["Package", "JavaScript"],
-      description: "Fast and minimalist library for terminal output formatting with ANSI colors!",
-      link: {
-        label: "github.com",
-        href: "https://github.com/FJrodafo/colors",
-      },
-    },
   ],
 } as const;
