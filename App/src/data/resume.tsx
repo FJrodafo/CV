@@ -148,5 +148,14 @@ export const RESUME_DATA = {
         href: "https://github.com/FJrodafo/free-port",
       },
     },
+    {
+      title: "to-do",
+      techStack: ["Package", "JavaScript"],
+      description: "Fast and minimalist to-do app!",
+      link: {
+        label: "github.com",
+        href: "https://github.com/FJrodafo/to-do",
+      },
+    },
   ],
 } as const;

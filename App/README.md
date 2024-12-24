@@ -2,10 +2,12 @@
 
 1. [Introduction](#introduction)
 2. [Project Structure](#project-structure)
-3. [Run it!](#run-it)
-4. [Run with Docker](#run-with-docker)
-5. [Build Docker image on your own](#build-docker-image-on-your-own)
-6. [Learn More](#learn-more)
+3. [Download the code](#download-the-code)
+4. [Run it!](#run-it)
+5. [Run with Docker](#run-with-docker)
+6. [Build Docker image on your own](#build-docker-image-on-your-own)
+7. [Learn More](#learn-more)
+8. [Deploy on Vercel](#deploy-on-vercel)
 
 ## Introduction
 
@@ -20,6 +22,8 @@ My professional minimalist cv, made with [Nextjs](https://nextjs.org/), powered 
 
 ```
 App/
+├── .next/
+│   └── ...
 ├── node_modules/
 │   └── ...
 ├── public/
@@ -55,7 +59,7 @@ App/
 ```
 </details>
 
-## Run it!
+## Download the code
 
 Open your directory where you save your repositories and clone it with the following command:
 
@@ -73,6 +77,8 @@ git clone https://gitlab.com/FJrodafo/CV.git
 # Bitbucket
 git clone https://bitbucket.org/fjrodafo/cv.git
 ```
+
+## Run it!
 
 This project must be initialized and the necessary dependencies installed with the following command (Make sure you are in the `App` directory):
 
@@ -117,7 +123,7 @@ Run the container:
 docker compose up -d
 ```
 
-Stop the Container:
+Stop the container:
 
 ```shell
 docker compose down
