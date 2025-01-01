@@ -3,9 +3,9 @@
 1. [Introduction](#introduction)
 2. [Project Structure](#project-structure)
 3. [Download the code](#download-the-code)
-4. [Run it!](#run-it)
-5. [Run with Docker](#run-with-docker)
-6. [Build Docker image on your own](#build-docker-image-on-your-own)
+4. [Install dependencies](#install-dependencies)
+5. [Final steps](#final-steps)
+6. [Using Docker](#using-docker)
 7. [Learn More](#learn-more)
 8. [Deploy on Vercel](#deploy-on-vercel)
 
@@ -78,7 +78,7 @@ git clone https://gitlab.com/FJrodafo/CV.git
 git clone https://bitbucket.org/fjrodafo/cv.git
 ```
 
-## Run it!
+## Install dependencies
 
 This project must be initialized and the necessary dependencies installed with the following command (Make sure you are in the `App` directory):
 
@@ -86,9 +86,11 @@ This project must be initialized and the necessary dependencies installed with t
 npm install
 ```
 
+## Final steps
+
 If you have Node v18 or higher installed on your machine, then you are good to go!
 
-To check if you already have Node installed on your machine, run `node -v` in your terminal. Otherwise, you will need to install Node v18 or higher or, as a last option, check out the [Docker](#run-with-docker) alternative.
+To check if you already have Node installed on your machine, run `node -v` in your terminal. Otherwise, you will need to install Node v18 or higher or, as a last option, check out the [Docker](#using-docker) alternative.
 
 Finally, if you have Node installed, run the following command to run the development server (Make sure you are in the `App` directory):
 
@@ -109,7 +111,9 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Run with Docker
+## Using Docker
+
+### Run with Docker Compose
 
 Build the container:
 
@@ -129,7 +133,7 @@ Stop the container:
 docker compose down
 ```
 
-## Build Docker image on your own
+### Build Docker image on your own
 
 If you don't have Node v18 or higher installed on your machine, you can build a Docker image by running the [Dockerfile](./Dockerfile).
 
@@ -144,6 +148,12 @@ After the build completes, you can run your container with the following command
 ```shell
 docker run -dp 127.0.0.1:3000:3000 cv
 ```
+
+> [!IMPORTANT]
+> 
+> Please note that when using Docker, port 3000 on localhost will be occupied by the Discord application for its proper functioning.
+> 
+> If you already have applications that use port 3000, you will need to adjust certain parameters before creating the Docker container so that it can run correctly on a free port.
 
 ## Learn More
 
