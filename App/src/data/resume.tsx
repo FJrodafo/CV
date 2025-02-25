@@ -53,6 +53,10 @@ export const RESUME_DATA = {
         name: "PayPal",
         url: "https://paypal.me/FJrodafo",
       },
+      {
+        name: "Gravatar",
+        url: "https://gravatar.com/fjrodafo",
+      },
     ],
   },
   experience: [
