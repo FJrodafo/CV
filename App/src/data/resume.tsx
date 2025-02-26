@@ -11,7 +11,7 @@ export const RESUME_DATA = {
   personalWebsiteUrl: "https://fjrodafo.vercel.app/",
   contact: {
     email: "fjrodafo@gmail.com",
-    tel: "+0",
+    tel: "+34635431024",
     mainSocialNetworks: [
       {
         name: "LinkedIn",
@@ -36,10 +36,6 @@ export const RESUME_DATA = {
       {
         name: "Crowdin",
         url: "https://crowdin.com/profile/fjrodafo",
-      },
-      {
-        name: "Telegram",
-        url: "https://t.me/FJrodafo",
       },
       {
         name: "Discord",
