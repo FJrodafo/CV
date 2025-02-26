@@ -34,10 +34,6 @@ export const RESUME_DATA = {
         url: "https://hub.docker.com/u/fjrodafo",
       },
       {
-        name: "Stack Overflow",
-        url: "https://stackoverflow.com/users/26261359/fjrodafo",
-      },
-      {
         name: "Crowdin",
         url: "https://crowdin.com/profile/fjrodafo",
       },
