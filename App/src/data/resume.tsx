@@ -53,23 +53,50 @@ export const RESUME_DATA = {
   },
   experience: [
     {
-      company: "Temp1",
-      link: "Temp2",
-      badges: ["Temp3", "Temp4"],
-      title: "Temp5",
-      start: "Temp6",
+      company: "OFT - Orquesta Filarmónica de Tenerife",
+      link: "https://www.facebook.com/orquestafilarmonicadetenerife/",
+      badges: ["Music", "Trumpet"],
+      title: "Trumpeter",
+      start: "2018",
       end: "Present",
       description: (
         <>
-          Temp7
+          La OFT, compuesta por jóvenes músicos de entre 18 y 25 años, que provienen de la OFJT-MJ y de otros ámbitos de la realidad musical y cultura de nuestra comunidad, materializa el objetivo fundacional de PROMUCAN, la promoción de los jóvenes músicos de Canarias.
+          {/*
           <ul className="list-inside list-disc">
             <li>
-              Temp8
+              Temp
             </li>
             <li>
-              Temp9
+              Temp
             </li>
           </ul>
+          */}
+        </>
+      ),
+    },
+    {
+      company: "OFJTMJ - Orquesta Filarmónica Juvenil...",
+      link: "https://www.facebook.com/OrquestaFilarmonicaJuvenildeTenerifeMiguelJaubert/",
+      badges: ["Music", "Trumpet"],
+      title: "Trumpeter",
+      start: "2017",
+      end: "2019",
+      description: (
+        <>
+          Un niño entenderá mejor la música, cuando la vea interpretada por otros niños.
+          <br/>
+          Miguel Jaubert Gómez
+          {/*
+          <ul className="list-inside list-disc">
+            <li>
+              Temp
+            </li>
+            <li>
+              Temp
+            </li>
+          </ul>
+          */}
         </>
       ),
     },
@@ -88,7 +115,7 @@ export const RESUME_DATA = {
       end: "2025",
     },
     {
-      school: "CPMT - Conservatorio Profesional de Música de Tenerife",
+      school: "CPMT - Conservatorio Profesional de Música de Santa...",
       degree: "Musical performance, Trumpet",
       start: "2018",
       end: "2021",
