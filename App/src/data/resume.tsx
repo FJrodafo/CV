@@ -61,7 +61,8 @@ export const RESUME_DATA = {
       end: "Present",
       description: (
         <>
-          La OFT, compuesta por jóvenes músicos de entre 18 y 25 años, que provienen de la OFJT-MJ y de otros ámbitos de la realidad musical y cultura de nuestra comunidad, materializa el objetivo fundacional de PROMUCAN, la promoción de los jóvenes músicos de Canarias.
+          {/*La OFT, compuesta por jóvenes músicos de entre 18 y 25 años, que provienen de la OFJT-MJ y de otros ámbitos de la realidad musical y cultura de nuestra comunidad, materializa el objetivo fundacional de PROMUCAN: la promoción de los jóvenes músicos de Canarias.*/}
+          The OFT, made up of young musicians between the ages of 18 and 25, who come from the OFJT-MJ and other areas of the musical and cultural scene in our community, embodies PROMUCAN&apos;s founding objective: the promotion of young musicians in the Canary Islands.
           {/*
           <ul className="list-inside list-disc">
             <li>
@@ -84,7 +85,8 @@ export const RESUME_DATA = {
       end: "2019",
       description: (
         <>
-          &quot;Un niño entenderá mejor la música, cuando la vea interpretada por otros niños.&quot;
+          {/*&quot;Un niño entenderá mejor la música, cuando la vea interpretada por otros niños.&quot;*/}
+          &quot;A child will understand music better when he or she sees it performed by other children.&quot;
           <br/>
           - Miguel Jaubert Gómez
           {/*
