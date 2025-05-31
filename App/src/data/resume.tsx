@@ -84,9 +84,9 @@ export const RESUME_DATA = {
       end: "2019",
       description: (
         <>
-          Un niño entenderá mejor la música, cuando la vea interpretada por otros niños.
+          "Un niño entenderá mejor la música, cuando la vea interpretada por otros niños."
           <br/>
-          Miguel Jaubert Gómez
+          - Miguel Jaubert Gómez
           {/*
           <ul className="list-inside list-disc">
             <li>
