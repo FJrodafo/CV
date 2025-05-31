@@ -76,7 +76,7 @@ export const RESUME_DATA = {
       ),
     },
     {
-      company: "OFJTMJ - Orquesta Filarmónica Juvenil...",
+      company: "OFJT-MJ - Orquesta Filarmónica Juvenil...",
       link: "https://www.facebook.com/OrquestaFilarmonicaJuvenildeTenerifeMiguelJaubert/",
       badges: ["Music", "Trumpet"],
       title: "Trumpeter",
