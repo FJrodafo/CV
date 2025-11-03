@@ -87,7 +87,6 @@ export const RESUME_DATA = {
         <>
           {/*&quot;Un niño entenderá mejor la música, cuando la vea interpretada por otros niños.&quot;*/}
           &quot;A child will understand music better when he or she sees it performed by other children.&quot;
-          <br/>
           - Miguel Jaubert Gómez
           {/*
           <ul className="list-inside list-disc">
@@ -137,11 +136,21 @@ export const RESUME_DATA = {
     "Node.js",
     "Java",
     "PHP",
+    "Nginx",
     "SQL",
     "MySQL",
     "Docker",
   ],
   projects: [
+    {
+      title: "Dotfiles",
+      techStack: ["Linux", "Debian", "Bash", "Shell"],
+      description: "My scripts and settings!",
+      link: {
+        label: "github.com",
+        href: "https://github.com/FJrodafo/Dotfiles",
+      },
+    },
     {
       title: "DiscordAPP",
       techStack: ["App", "npm", "Node.js", "JavaScript"],
@@ -158,6 +167,15 @@ export const RESUME_DATA = {
       link: {
         label: "github.com",
         href: "https://github.com/FJrodafo/DiscordCRPS",
+      },
+    },
+    {
+      title: "ShrikeBot",
+      techStack: ["App", "npm", "Node.js", "JavaScript"],
+      description: "A ShrikeBot clone made in JavaScript!",
+      link: {
+        label: "github.com",
+        href: "https://github.com/FJrodafo/ShrikeBot",
       },
     },
     {
@@ -197,6 +215,15 @@ export const RESUME_DATA = {
       },
     },
     {
+      title: "University",
+      techStack: ["Cheat-sheets", "Learning", "Languages", "Exercices"],
+      description: "A library of basic concepts!",
+      link: {
+        label: "github.com",
+        href: "https://github.com/FJrodafo/University",
+      },
+    },
+    {
       title: "Portfolio",
       techStack: ["Website", "React", "Next.js", "Javascript"],
       description: "My professional minimalist portfolio!",
@@ -212,24 +239,6 @@ export const RESUME_DATA = {
       link: {
         label: "github.com",
         href: "https://github.com/FJrodafo/CV",
-      },
-    },
-    {
-      title: "University",
-      techStack: ["Cheat-sheets", "Learning", "Languages", "Exercices"],
-      description: "A library of basic concepts!",
-      link: {
-        label: "github.com",
-        href: "https://github.com/FJrodafo/University",
-      },
-    },
-    {
-      title: "Dotfiles",
-      techStack: ["Linux", "Debian", "Bash", "Shell"],
-      description: "My scripts and settings!",
-      link: {
-        label: "github.com",
-        href: "https://github.com/FJrodafo/Dotfiles",
       },
     },
   ],
