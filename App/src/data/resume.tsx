@@ -38,12 +38,16 @@ export const RESUME_DATA = {
         url: "https://crowdin.com/profile/fjrodafo",
       },
       {
-        name: "Discord",
-        url: "https://discord.com/users/1259949570964590705",
-      },
-      {
         name: "PayPal",
         url: "https://paypal.me/FJrodafo",
+      },
+      {
+        name: "YouTube",
+        url: "https://www.youtube.com/@FJrodafo",
+      },
+      {
+        name: "Discord",
+        url: "https://discord.com/users/1259949570964590705",
       },
       {
         name: "Gravatar",
