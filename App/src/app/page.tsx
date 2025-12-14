@@ -8,9 +8,38 @@ import { Summary } from "@/app/components/Summary";
 import { Skills } from "@/app/components/Skills";
 import { Header } from "@/app/components/Header";
 
+const SITE_URL = "https://fjrodafo-cv.vercel.app/";
+const AVATAR_URL = "https://avatars.githubusercontent.com/u/126250262?v=4";
+
 export const metadata: Metadata = {
-  title: `${RESUME_DATA.name} | ${RESUME_DATA.about}`,
-  description: RESUME_DATA.summary,
+  title: {
+    default: RESUME_DATA.name,
+    template: "%s | FJrodafo",
+  },
+  description: RESUME_DATA.about,
+  openGraph: {
+    title: `${RESUME_DATA.name} | ${RESUME_DATA.initials}`,
+    description: RESUME_DATA.about,
+    url: SITE_URL,
+    siteName: "FJrodafo's Curriculum Vitae",
+    locale: "en_US",
+    type: "website",
+    images: [
+      {
+        url: AVATAR_URL,
+        width: 1200,
+        height: 1200,
+        alt: "FJrodafo's Avatar",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary",
+    title: `${RESUME_DATA.name} | ${RESUME_DATA.initials}`,
+    description: RESUME_DATA.about,
+    creator: "@fjrodafo",
+    images: [AVATAR_URL],
+  },
 };
 
 function getCommandMenuLinks() {
