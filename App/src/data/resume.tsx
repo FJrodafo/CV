@@ -140,9 +140,10 @@ export const RESUME_DATA = {
     "Node.js",
     "Java",
     "PHP",
-    "Nginx",
     "SQL",
     "MySQL",
+    "PostgreSQL",
+    "Nginx",
     "Docker",
   ],
   projects: [
@@ -180,6 +181,15 @@ export const RESUME_DATA = {
       link: {
         label: "github.com",
         href: "https://github.com/FJrodafo/ShrikeBot",
+      },
+    },
+    {
+      title: "ThraxBoT",
+      techStack: ["Contribution", "Docker", "Python", "Shell"],
+      description: "Utility Discord Bot for community server Thrax Enjoyers!",
+      link: {
+        label: "github.com",
+        href: "https://github.com/Super-EvilTeam/ThraxBoT",
       },
     },
     {
