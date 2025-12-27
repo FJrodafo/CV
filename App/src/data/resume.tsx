@@ -229,6 +229,24 @@ export const RESUME_DATA = {
       },
     },
     {
+      title: "Awesome",
+      techStack: ["Awesome", "Template", "ReadMe", "Markdown"],
+      description: "Awesome lists about all kinds of interesting topics!",
+      link: {
+        label: "github.com",
+        href: "https://github.com/FJrodafo/Awesome",
+      },
+    },
+    {
+      title: "FJrodafo",
+      techStack: ["FJrodafo", "Profile", "ReadMe", "Markdown"],
+      description: "This is my special repository!",
+      link: {
+        label: "github.com",
+        href: "https://github.com/FJrodafo/FJrodafo",
+      },
+    },
+    {
       title: "University",
       techStack: ["Cheat-sheets", "Learning", "Languages", "Exercices"],
       description: "A library of basic concepts!",
