@@ -248,7 +248,7 @@ export const RESUME_DATA = {
     },
     {
       title: "University",
-      techStack: ["Cheat-sheets", "Learning", "Languages", "Exercices"],
+      techStack: ["Cheat-sheets", "Learning", "Languages", "Exercises"],
       description: "A library of basic concepts!",
       link: {
         label: "github.com",
