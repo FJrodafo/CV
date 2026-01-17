@@ -192,7 +192,7 @@ export const RESUME_DATA = {
     },
     {
       title: "BlindSort",
-      techStack: ["App", "Game", "Bash", "Shell"],
+      techStack: ["Game", "Bash", "Shell", "TTY"],
       description: "A simple terminal-based number sorting game!",
       link: {
         label: "github.com",
