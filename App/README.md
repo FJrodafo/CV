@@ -20,7 +20,7 @@ My professional minimalist cv, made with [Nextjs](https://nextjs.org/), powered 
 
 Website originally designed by [Bartosz Jarocki](https://github.com/BartoszJarocki), check the original website at https://cv.jarocki.me/
 
-Icons from [Lucide](https://lucide.dev/).
+Icons from https://lucide.dev/
 
 ## Project Structure
 
