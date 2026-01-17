@@ -1,0 +1,77 @@
+{
+  "name": "@fjrodafo/cv",
+  "version": "1.0.0",
+  "description": "My professional minimalist curriculum vitae!",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FJrodafo/CV.git"
+  },
+  "keywords": [
+    "fjrodafo",
+    "website",
+    "cv",
+    "curriculum",
+    "vitae",
+    "linkedin",
+    "github",
+    "docker",
+    "dockerhub",
+    "node",
+    "nodejs",
+    "npm",
+    "npmjs",
+    "git",
+    "html",
+    "tailwindcss",
+    "typescript",
+    "react",
+    "next",
+    "nextjs",
+    "vercel",
+    "home",
+    "about",
+    "experience",
+    "education",
+    "skills",
+    "projects",
+    "english",
+    "light",
+    "theme"
+  ],
+  "author": "FJrodafo - Francisco José Rodríguez Afonso",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FJrodafo/CV/issues"
+  },
+  "homepage": "https://github.com/FJrodafo/CV#readme",
+  "dependencies": {
+    "@radix-ui/react-avatar": "^1.0.4",
+    "@radix-ui/react-dialog": "^1.0.5",
+    "@radix-ui/react-slot": "^1.0.2",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.0.0",
+    "cmdk": "^0.2.0",
+    "lucide-react": "^0.300.0",
+    "next": "^14.2.35",
+    "react": "^18",
+    "react-dom": "^18",
+    "tailwind-merge": "^2.2.0",
+    "tailwindcss-animate": "^1.0.7",
+    "vaul": "^0.8.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
