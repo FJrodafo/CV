@@ -139,11 +139,14 @@ export const RESUME_DATA = {
     "HTML",
     "CSS",
     "JavaScript",
+    "Python",
+    "Ruby",
     "React",
     "Next.js",
     "Node.js",
     "Java",
     "PHP",
+    "Laravel",
     "SQL",
     "MySQL",
     "PostgreSQL",
@@ -188,6 +191,15 @@ export const RESUME_DATA = {
       },
     },
     {
+      title: "BlindSort",
+      techStack: ["App", "Game", "Bash", "Shell"],
+      description: "A simple terminal-based number sorting game!",
+      link: {
+        label: "github.com",
+        href: "https://github.com/FJrodafo/BlindSort",
+      },
+    },
+    {
       title: "ThraxBoT",
       techStack: ["Contribution", "Docker", "Python", "Shell"],
       description: "Utility Discord Bot for community server Thrax Enjoyers!",
@@ -212,6 +224,15 @@ export const RESUME_DATA = {
       link: {
         label: "github.com",
         href: "https://github.com/PierreYvesFlamand/Dauntless-Leaderboards",
+      },
+    },
+    {
+      title: "blindsort-tty",
+      techStack: ["Contribution", "Game", "Bash", "Shell"],
+      description: "A simple terminal-based number sorting game!",
+      link: {
+        label: "github.com",
+        href: "https://github.com/m3tozz/blindsort-tty",
       },
     },
     {
