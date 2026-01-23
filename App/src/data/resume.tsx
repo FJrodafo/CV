@@ -281,6 +281,15 @@ export const RESUME_DATA = {
       },
     },
     {
+      title: "FJrodafo Archive",
+      techStack: ["FJrodafo", "Public", "Archive", "Organization"],
+      description: "The FJrodafo archive repository contains old and archived projects from FJrodafo's history.",
+      link: {
+        label: "github.com",
+        href: "https://github.com/FJrodafo-Archive",
+      },
+    },
+    {
       title: "FJrodafo.github.io",
       techStack: ["FJrodafo", "Pages", "ReadMe", "Markdown"],
       description: "Bookmark this to keep an eye on my project updates!",
