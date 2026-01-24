@@ -22,7 +22,7 @@ My professional minimalist cv, made with [Nextjs](https://nextjs.org/), powered 
 
 ## Attribution
 
-Forked from [BartoszJarocki/cv](https://github.com/BartoszJarocki/cv)
+Forked from [BartoszJarocki/cv](https://github.com/BartoszJarocki/cv) with MIT license
 
 Website originally designed by [Bartosz Jarocki](https://github.com/BartoszJarocki)
 
