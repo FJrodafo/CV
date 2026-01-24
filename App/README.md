@@ -18,7 +18,11 @@ My professional minimalist cv, made with [Nextjs](https://nextjs.org/), powered 
 
 ## Attribution
 
-Website originally designed by [Bartosz Jarocki](https://github.com/BartoszJarocki), check the original website at https://cv.jarocki.me/
+Forked from [BartoszJarocki/cv](https://github.com/BartoszJarocki/cv)
+
+Website originally designed by [Bartosz Jarocki](https://github.com/BartoszJarocki)
+
+Check the original website at https://cv.jarocki.me/
 
 Icons from https://lucide.dev/
 
