@@ -254,12 +254,12 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "port-finder",
+      title: "PortFinder",
       techStack: ["npm", "Package", "Server", "JavaScript"],
       description: "Fast and minimalist port finder!",
       link: {
         label: "github.com",
-        href: "https://github.com/FJrodafo/port-finder/pkgs/npm/port-finder",
+        href: "https://github.com/FJrodafo/PortFinder/pkgs/npm/port-finder",
       },
     },
     {
