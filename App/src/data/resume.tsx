@@ -26,6 +26,10 @@ export const RESUME_DATA = {
     ],
     otherSocialNetworks: [
       {
+        name: "GitLab",
+        url: "https://gitlab.com/FJrodafo",
+      },
+      {
         name: "npmjs",
         url: "https://www.npmjs.com/~fjrodafo",
       },
