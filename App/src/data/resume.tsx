@@ -30,6 +30,10 @@ export const RESUME_DATA = {
         url: "https://gitlab.com/FJrodafo",
       },
       {
+        name: "GitLab FreeDesktop",
+        url: "https://gitlab.freedesktop.org/FJrodafo",
+      },
+      {
         name: "npmjs",
         url: "https://www.npmjs.com/~fjrodafo",
       },
