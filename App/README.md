@@ -161,8 +161,6 @@ docker run -dp 127.0.0.1:3000:3000 cv
 
 > [!IMPORTANT]
 > 
-> Please note that when using Docker, port 3000 on localhost will be occupied by the Discord application for its proper functioning.
-> 
 > If you already have applications that use port 3000, you will need to adjust certain parameters before creating the Docker container so that it can run correctly on a free port.
 
 ## Learn More
