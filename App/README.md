@@ -11,8 +11,8 @@ My professional minimalist curriculum vitae!
 5. [Install dependencies](#install-dependencies)
 6. [Final steps](#final-steps)
 7. [Using Docker](#using-docker)
-    1. [Run with Docker Compose](#run-with-docker-compose)
-    2. [Build Docker image on your own](#build-docker-image-on-your-own)
+    1. [Run with Docker Compose (Recommended)](#run-with-docker-compose-recommended)
+    2. [Build Docker image manually](#build-docker-image-manually)
 8. [Learn More](#learn-more)
 9. [Deploy on Vercel](#deploy-on-vercel)
 
@@ -98,32 +98,26 @@ npm install
 
 ## Final steps
 
-If you have Node v18 or higher installed on your machine, then you are good to go!
+If you have Node v22.14 or higher installed on your machine, then you are good to go!
 
-To check if you already have Node installed on your machine, run `node -v` in your terminal. Otherwise, you will need to install Node v18 or higher or, as a last option, check out the [Docker](#using-docker) alternative.
+To check if you already have Node installed on your machine, run `node -v` in your terminal. Otherwise, you will need to install Node v22.14 or higher or, as a last option, check out the [Docker](#using-docker) alternative.
 
 Finally, if you have Node installed, run the following command to run the development server (Make sure you are in the `App` directory):
 
 ```shell
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 # Press 'Ctrl + C' to exit
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Open [http://localhost:3000](http://localhost:3000) in your favorite browser to see the result (The page auto-updates as you edit the project files).
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
 ## Using Docker
 
-### Run with Docker Compose
+This project can be run using Docker without installing Node.js locally.
+
+### Run with Docker Compose (Recommended)
 
 Build the container:
 
@@ -143,9 +137,17 @@ Stop the container:
 docker compose down
 ```
 
-### Build Docker image on your own
+Open [http://localhost:3000](http://localhost:3000) in your favorite browser to see the result.
 
-If you don't have Node v18 or higher installed on your machine, you can build a Docker image by running the [Dockerfile](./Dockerfile).
+> [!IMPORTANT]
+> 
+> If you already have applications that use port 3000, you will need to change the host port before creating the Docker container so that it can run correctly on a free port.
+
+### Build Docker image manually
+
+If you prefer not to use Docker Compose, you can build and run the image manually.
+
+If you don't have Node v22.14 or higher installed on your machine, you can build a Docker image by running the [Dockerfile](./Dockerfile).
 
 Open a terminal and run the following command (Make sure you are in the `App` directory):
 
@@ -156,12 +158,14 @@ docker build -t cv .
 After the build completes, you can run your container with the following command:
 
 ```shell
-docker run -dp 127.0.0.1:3000:3000 cv
+docker run -dp 3000:3000 cv
 ```
+
+Open [http://localhost:3000](http://localhost:3000) in your favorite browser to see the result.
 
 > [!IMPORTANT]
 > 
-> If you already have applications that use port 3000, you will need to adjust certain parameters before creating the Docker container so that it can run correctly on a free port.
+> If you already have applications that use port 3000, you will need to change the host port before creating the Docker container so that it can run correctly on a free port.
 
 ## Learn More
 
