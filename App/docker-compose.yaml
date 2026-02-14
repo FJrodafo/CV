@@ -1,8 +1,8 @@
 services:
   cv:
     build: .
+    image: cv
+    container_name: cv
     ports:
-      - '3000:3000'
-    environment:
-      - NODE_ENV=production
+      - "3000:3000"
     restart: unless-stopped
