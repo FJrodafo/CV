@@ -119,6 +119,18 @@ This project can be run using Docker without installing Node.js locally.
 
 You can find a Docker image of this project ready to be pulled on [GitHub Packages](https://github.com/FJrodafo/CV/pkgs/container/cv) or [Docker Hub](https://hub.docker.com/r/fjrodafo/cv) website!
 
+Pull the image with the following commands:
+
+```shell
+# Docker Hub
+docker pull fjrodafo/cv:v1.0.0
+```
+
+```shell
+# GitHub Packages
+docker pull ghcr.io/fjrodafo/cv:v1.0.0
+```
+
 ### Run with Docker Compose (Recommended)
 
 Build the container:
