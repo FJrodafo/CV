@@ -280,12 +280,12 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "to-do",
+      title: "ToDo",
       techStack: ["Docker", "Container", "SQL", "JavaScript"],
       description: "Fast and minimalist to-do app!",
       link: {
         label: "github.com",
-        href: "https://github.com/FJrodafo/to-do/pkgs/container/to-do",
+        href: "https://github.com/FJrodafo/ToDo/pkgs/container/to-do",
       },
     },
     {
