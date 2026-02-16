@@ -117,6 +117,8 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 This project can be run using Docker without installing Node.js locally.
 
+You can find a Docker image of this project ready to be pulled on [GitHub Packages](https://github.com/FJrodafo/CV/pkgs/container/cv) or [Docker Hub](https://hub.docker.com/r/fjrodafo/cv) website!
+
 ### Run with Docker Compose (Recommended)
 
 Build the container:
