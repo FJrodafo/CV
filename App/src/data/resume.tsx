@@ -209,7 +209,7 @@ export const RESUME_DATA = {
     },
     {
       title: "KeepCalm",
-      techStack: ["APP", "Bash", "Shell", "Python"],
+      techStack: ["App", "Bash", "Shell", "Python"],
       description: "A simple script for generating \"Keep Calm\" messages!",
       link: {
         label: "github.com",
@@ -218,7 +218,7 @@ export const RESUME_DATA = {
     },
     {
       title: "BlindSort",
-      techStack: ["Game", "Bash", "Shell", "TTY"],
+      techStack: ["Game", "TTY", "Bash", "Shell"],
       description: "A simple terminal-based number sorting game!",
       link: {
         label: "github.com",
@@ -263,7 +263,7 @@ export const RESUME_DATA = {
     },
     {
       title: "PortFinder",
-      techStack: ["npm", "Package", "Server", "JavaScript"],
+      techStack: ["Package", "npm", "Server", "JavaScript"],
       description: "Fast and minimalist port finder!",
       link: {
         label: "github.com",
@@ -272,7 +272,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Slugify",
-      techStack: ["RubyGems", "Package", "Utility", "Ruby"],
+      techStack: ["Package", "RubyGems", "Utility", "Ruby"],
       description: "A simple slugify gem!",
       link: {
         label: "github.com",
@@ -281,7 +281,7 @@ export const RESUME_DATA = {
     },
     {
       title: "ToDo",
-      techStack: ["Docker", "Container", "SQL", "JavaScript"],
+      techStack: ["Website", "Docker", "SQL", "JavaScript"],
       description: "Fast and minimalist to-do app!",
       link: {
         label: "github.com",
@@ -307,8 +307,17 @@ export const RESUME_DATA = {
       },
     },
     {
+      title: "FJrodafo.github.io",
+      techStack: ["FJrodafo", "Website", "ReadMe", "Markdown"],
+      description: "Bookmark this to keep an eye on my project updates!",
+      link: {
+        label: "github.com",
+        href: "https://github.com/FJrodafo/FJrodafo.github.io",
+      },
+    },
+    {
       title: "FJrodafo Archive",
-      techStack: ["FJrodafo", "Public", "Archive", "Organization"],
+      techStack: ["Organization", "FJrodafo", "Public", "Archive"],
       description: "The FJrodafo archive repository contains old and archived projects from FJrodafo's history.",
       link: {
         label: "github.com",
@@ -316,12 +325,21 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "FJrodafo.github.io",
-      techStack: ["FJrodafo", "Pages", "ReadMe", "Markdown"],
-      description: "Bookmark this to keep an eye on my project updates!",
+      title: "PRW DAW",
+      techStack: ["Organization", "PRW", "CFGS", "DAW"],
+      description: "Espacio colaborativo dedicado al desarrollo del Proyecto Web del Ciclo Formativo de Grado Superior en Desarrollo de Aplicaciones Web.",
       link: {
         label: "github.com",
-        href: "https://github.com/FJrodafo/FJrodafo.github.io",
+        href: "https://github.com/PRW-DAW",
+      },
+    },
+    {
+      title: "DevHub",
+      techStack: ["Website", "Docker", "React", "Laravel"],
+      description: "¡Tu espacio para registrar, mostrar y destacar tus proyectos, llevando tu desarrollo personal al siguiente nivel!",
+      link: {
+        label: "github.com",
+        href: "https://github.com/PRW-DAW/DevHub",
       },
     },
     {
@@ -335,7 +353,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Portfolio",
-      techStack: ["Website", "React", "Next.js", "Javascript"],
+      techStack: ["Website", "Docker", "Next.js", "Javascript"],
       description: "My professional minimalist portfolio!",
       link: {
         label: "github.com",
@@ -344,7 +362,7 @@ export const RESUME_DATA = {
     },
     {
       title: "CV",
-      techStack: ["Website", "React", "Next.js", "Typescript"],
+      techStack: ["Website", "Docker", "Next.js", "Typescript"],
       description: "My professional minimalist curriculum vitae!",
       link: {
         label: "github.com",
