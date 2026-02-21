@@ -2,6 +2,12 @@
 
 My professional minimalist curriculum vitae!
 
+![Docker Pulls](https://img.shields.io/docker/pulls/fjrodafo/cv)
+![Docker Stars](https://img.shields.io/docker/stars/fjrodafo/cv)
+![Docker Automated build](https://img.shields.io/docker/automated/fjrodafo/cv)
+![Docker Image Size](https://img.shields.io/docker/image-size/fjrodafo/cv)
+![Docker Image Version](https://img.shields.io/docker/v/fjrodafo/cv)
+
 ## Index
 
 1. [Introduction](#introduction)
