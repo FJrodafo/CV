@@ -47,6 +47,10 @@
   ],
   "author": "FJrodafo - Francisco José Rodríguez Afonso",
   "license": "MIT",
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/FJrodafo"
+  },
   "bugs": {
     "url": "https://github.com/FJrodafo/CV/issues"
   },
