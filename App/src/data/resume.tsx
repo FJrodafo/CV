@@ -30,10 +30,6 @@ export const RESUME_DATA = {
         url: "https://gitlab.com/FJrodafo",
       },
       {
-        name: "GitLab FreeDesktop",
-        url: "https://gitlab.freedesktop.org/FJrodafo",
-      },
-      {
         name: "npmjs",
         url: "https://www.npmjs.com/~fjrodafo",
       },
@@ -69,9 +65,27 @@ export const RESUME_DATA = {
   },
   experience: [
     {
+      company: "META Channel Corporation",
+      link: "https://metachannelcorp.com/",
+      badges: ["Remote", "Internship"],
+      title: "Web Application Developer",
+      start: "2026",
+      end: "Present",
+      description: (
+        <>
+          {/*Despacho jurídico internacional que convierte complejidad regulatoria en escalabilidad internacional. Especialistas en AI Act, MiCA, DORA, tokenización y M&amp;A transfronterizo.*/}
+          International law firm that transforms regulatory complexity into global scalability. Specialists in AI Act, MiCA, DORA, tokenization, and cross-border M&A.
+          <ul className="list-inside list-disc">
+            <li>Search Engine Optimization (SEO)</li>
+            <li>Web Content Accessibility Guidelines (WCAG)</li>
+          </ul>
+        </>
+      ),
+    },
+    {
       company: "OFT - Orquesta Filarmónica de Tenerife",
       link: "https://www.facebook.com/orquestafilarmonicadetenerife/",
-      badges: ["Music", "Trumpet"],
+      badges: ["On-site", "Freelance"],
       title: "Trumpeter",
       start: "2018",
       end: "Present",
@@ -81,37 +95,30 @@ export const RESUME_DATA = {
           The OFT, made up of young musicians between the ages of 18 and 25, who come from the OFJT-MJ and other areas of the musical and cultural scene in our community, embodies PROMUCAN&apos;s founding objective: the promotion of young musicians in the Canary Islands.
           {/*
           <ul className="list-inside list-disc">
-            <li>
-              Temp
-            </li>
-            <li>
-              Temp
-            </li>
+            <li>Temp</li>
+            <li>Temp</li>
           </ul>
           */}
         </>
       ),
     },
     {
-      company: "OFJT-MJ - Orquesta Filarmónica Juvenil...",
+      company: "OFJT-MJ - Orquesta Filarmónica...",
       link: "https://www.facebook.com/OrquestaFilarmonicaJuvenildeTenerifeMiguelJaubert/",
-      badges: ["Music", "Trumpet"],
+      badges: ["On-site", "Freelance"],
       title: "Trumpeter",
       start: "2017",
       end: "2019",
       description: (
         <>
           {/*&quot;Un niño entenderá mejor la música, cuando la vea interpretada por otros niños.&quot;*/}
-          &quot;A child will understand music better when he or she sees it performed by other children.&quot;
+          &quot;A child will understand music better when they see it performed by other children.&quot;
+          <br />
           - Miguel Jaubert Gómez
           {/*
           <ul className="list-inside list-disc">
-            <li>
-              Temp
-            </li>
-            <li>
-              Temp
-            </li>
+            <li>Temp</li>
+            <li>Temp</li>
           </ul>
           */}
         </>
@@ -121,7 +128,7 @@ export const RESUME_DATA = {
   education: [
     {
       school: "IES Puerto de la Cruz - Telesforo Bravo",
-      degree: "Higher Degree Training Cycle, Web Application Development",
+      degree: "Web Application Development",
       start: "2022",
       end: "2026",
     },
@@ -132,7 +139,7 @@ export const RESUME_DATA = {
       end: "2025",
     },
     {
-      school: "CPMT - Conservatorio Profesional de Música de Santa...",
+      school: "CPMT - Conservatorio Profesional de Música...",
       degree: "Musical performance, Trumpet",
       start: "2018",
       end: "2021",
@@ -334,7 +341,8 @@ export const RESUME_DATA = {
     {
       title: "PRW DAW",
       techStack: ["Organization", "PRW", "CFGS", "DAW"],
-      description: "Espacio colaborativo dedicado al desarrollo del Proyecto Web del Ciclo Formativo de Grado Superior en Desarrollo de Aplicaciones Web.",
+      // description: "Espacio colaborativo dedicado al desarrollo del Proyecto Web del Ciclo Formativo de Grado Superior en Desarrollo de Aplicaciones Web.",
+      description: "Collaborative space dedicated to the development of the Web Project of the Higher Level Training Cycle in Web Application Development.",
       link: {
         label: "github.com",
         href: "https://github.com/PRW-DAW",
@@ -343,7 +351,8 @@ export const RESUME_DATA = {
     {
       title: "DevHub",
       techStack: ["Website", "Docker", "React", "Laravel"],
-      description: "¡Tu espacio para registrar, mostrar y destacar tus proyectos, llevando tu desarrollo personal al siguiente nivel!",
+      // description: "¡Tu espacio para registrar, mostrar y destacar tus proyectos, llevando tu desarrollo profesional al siguiente nivel!",
+      description: "Your space to register, showcase and highlight your projects, taking your professional development to the next level!",
       link: {
         label: "github.com",
         href: "https://github.com/PRW-DAW/DevHub",
