@@ -155,6 +155,7 @@ export const RESUME_DATA = {
     "SQL",
     "SQLite",
     "TypeScript",
+    "WordPress",
     "XML",
     "XPath",
     "XQuery",
