@@ -2,11 +2,11 @@
 
 My professional minimalist curriculum vitae!
 
-![Docker Pulls](https://img.shields.io/docker/pulls/fjrodafo/cv)
-![Docker Stars](https://img.shields.io/docker/stars/fjrodafo/cv)
-![Docker Automated build](https://img.shields.io/docker/automated/fjrodafo/cv)
-![Docker Image Size](https://img.shields.io/docker/image-size/fjrodafo/cv)
-![Docker Image Version](https://img.shields.io/docker/v/fjrodafo/cv)
+[![Website](https://img.shields.io/website?url=https://fjrodafo-cv.vercel.app/&style=flat&label=▲Vercel&labelColor=000000&color=000000)](https://fjrodafo-cv.vercel.app/)
+[![GitHub Stars](https://img.shields.io/github/stars/FJrodafo/CV?style=social&logo=github&logoColor=000000&label=Stars&labelColor=ffffff&color=ffffff)](https://github.com/FJrodafo/CV/stargazers)
+
+[![Docker Pulls](https://img.shields.io/docker/pulls/fjrodafo/cv?style=flat&logo=docker&logoColor=ffffff&label=Pulls&labelColor=2560FF&color=2560FF)](https://hub.docker.com/r/fjrodafo/cv)
+[![Image Size](https://img.shields.io/docker/image-size/fjrodafo/cv?style=flat&logo=docker&logoColor=ffffff&label=Size&labelColor=2560FF&color=2560FF)](https://hub.docker.com/r/fjrodafo/cv)
 
 ## Index
 
