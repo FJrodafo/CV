@@ -118,7 +118,7 @@ export const RESUME_DATA = {
       end: "2025",
     },
     {
-      school: "CPMT - Conservatorio Profesional de Música...",
+      school: "CPMT - Conservatorio Profesional de Música de Tenerife",
       degree: "Musical performance, Trumpet",
       start: "2018",
       end: "2021",
