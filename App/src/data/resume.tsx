@@ -78,6 +78,7 @@ export const RESUME_DATA = {
           <ul className="list-inside list-disc">
             <li>Search Engine Optimization (SEO)</li>
             <li>Web Content Accessibility Guidelines (WCAG)</li>
+            <li>Docker, WordPress.</li>
           </ul>
         </>
       ),
@@ -93,28 +94,6 @@ export const RESUME_DATA = {
         <>
           {/*La OFT, compuesta por jóvenes músicos de entre 18 y 25 años, que provienen de la OFJT-MJ y de otros ámbitos de la realidad musical y cultura de nuestra comunidad, materializa el objetivo fundacional de PROMUCAN: la promoción de los jóvenes músicos de Canarias.*/}
           The OFT, made up of young musicians between the ages of 18 and 25, who come from the OFJT-MJ and other areas of the musical and cultural scene in our community, embodies PROMUCAN&apos;s founding objective: the promotion of young musicians in the Canary Islands.
-          {/*
-          <ul className="list-inside list-disc">
-            <li>Temp</li>
-            <li>Temp</li>
-          </ul>
-          */}
-        </>
-      ),
-    },
-    {
-      company: "OFJT-MJ - Orquesta Filarmónica...",
-      link: "https://www.facebook.com/OrquestaFilarmonicaJuvenildeTenerifeMiguelJaubert/",
-      badges: ["On-site", "Freelance"],
-      title: "Trumpeter",
-      start: "2017",
-      end: "2019",
-      description: (
-        <>
-          {/*&quot;Un niño entenderá mejor la música, cuando la vea interpretada por otros niños.&quot;*/}
-          &quot;A child will understand music better when they see it performed by other children.&quot;
-          <br />
-          - Miguel Jaubert Gómez
           {/*
           <ul className="list-inside list-disc">
             <li>Temp</li>
