@@ -76,9 +76,8 @@ export const RESUME_DATA = {
           {/*Despacho jurídico internacional que convierte complejidad regulatoria en escalabilidad internacional. Especialistas en AI Act, MiCA, DORA, tokenización y M&amp;A transfronterizo.*/}
           International law firm that transforms regulatory complexity into global scalability. Specialists in AI Act, MiCA, DORA, tokenization, and cross-border M&A.
           <ul className="list-inside list-disc">
-            <li>Search Engine Optimization (SEO)</li>
             <li>Web Content Accessibility Guidelines (WCAG)</li>
-            <li>Docker, WordPress.</li>
+            <li>Search Engine Optimization (SEO)</li>
           </ul>
         </>
       ),
