@@ -110,12 +110,12 @@ Pull the image with the following commands:
 
 ```shell
 # Docker Hub
-docker pull fjrodafo/cv:v1.0.5
+docker pull fjrodafo/cv:v1.0.6
 ```
 
 ```shell
 # GitHub Packages
-docker pull ghcr.io/fjrodafo/cv:v1.0.5
+docker pull ghcr.io/fjrodafo/cv:v1.0.6
 ```
 
 ### Run with Docker Compose (Recommended)
