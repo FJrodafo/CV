@@ -124,7 +124,7 @@ export const RESUME_DATA = {
     },
   ],
   skills: [
-    "AutoHotkey",
+    "AHK",
     "Bash",
     "Blade",
     "CSS",
