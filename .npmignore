@@ -1,0 +1,16 @@
+# Git
+/.git
+.gitattributes
+.gitignore
+
+# GitHub
+/.github
+
+# Vercel
+/.vercel
+
+# VSCode
+/.vscode
+
+# Releases
+/releases
