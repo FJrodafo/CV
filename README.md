@@ -148,7 +148,7 @@ Open [http://localhost:3000](http://localhost:3000) in your favorite browser to 
 
 If you prefer not to use Docker Compose, you can build and run the image manually.
 
-If you don't have Node v22.14 or higher installed on your machine, you can build a Docker image by running the [Dockerfile](https://github.com/FJrodafo/CV/blob/main/App/Dockerfile).
+If you don't have Node v22.14 or higher installed on your machine, you can build a Docker image by running the [Dockerfile](https://github.com/FJrodafo/CV/blob/main/Dockerfile).
 
 Open a terminal and run the following command:
 
@@ -181,7 +181,7 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/project?template=https://github.com/FJrodafo/CV/tree/main/App)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/project?template=https://github.com/FJrodafo/CV/tree/main)
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
