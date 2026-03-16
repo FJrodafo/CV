@@ -165,18 +165,73 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
-      title: "Dotfiles",
-      techStack: ["Linux", "Debian", "Bash", "Shell"],
-      description: "My scripts and settings!",
+      title: "Awesome",
+      techStack: ["Awesome", "Markdown", "ReadMe", "Template"],
+      description: "Awesome lists about all kinds of interesting topics!",
       link: {
         label: "github.com",
-        href: "https://github.com/FJrodafo/Dotfiles",
+        href: "https://github.com/FJrodafo/Awesome",
+      },
+    },
+    {
+      title: "BlindSort",
+      techStack: ["Bash", "Game", "Shell", "TTY"],
+      description: "A simple terminal-based number sorting game!",
+      link: {
+        label: "github.com",
+        href: "https://github.com/FJrodafo/BlindSort",
+      },
+    },
+    {
+      title: "blindsort-tty",
+      techStack: ["Bash", "Contribution", "Game", "Shell"],
+      description: "A simple terminal-based number sorting game!",
+      link: {
+        label: "github.com",
+        href: "https://github.com/m3tozz/blindsort-tty",
+      },
+    },
+    {
+      title: "CV",
+      techStack: ["Docker", "Next.js", "Typescript", "Website"],
+      description: "My professional minimalist curriculum vitae!",
+      link: {
+        label: "github.com",
+        href: "https://github.com/FJrodafo/CV",
+      },
+    },
+    {
+      title: "dauntless-builder-legacy",
+      techStack: ["Contribution", "React", "TypeScript", "Website"],
+      description: "Create and share Dauntless builds with your friends!",
+      link: {
+        label: "github.com",
+        href: "https://github.com/atomicptr/dauntless-builder-legacy",
+      },
+    },
+    {
+      title: "dauntless-leaderboards",
+      techStack: ["Angular", "Contribution", "TypeScript", "Website"],
+      description: "Dauntless Gauntlet and Trial leaderboards!",
+      link: {
+        label: "github.com",
+        href: "https://github.com/PierreYvesFlamand/Dauntless-Leaderboards",
+      },
+    },
+    {
+      title: "DevHub",
+      techStack: ["Docker", "Laravel", "React", "Website"],
+      // description: "¡Tu espacio para registrar, mostrar y destacar tus proyectos, llevando tu desarrollo profesional al siguiente nivel!",
+      description: "Your space to register, showcase and highlight your projects, taking your professional development to the next level!",
+      link: {
+        label: "github.com",
+        href: "https://github.com/PRW-DAW/DevHub",
       },
     },
     {
       title: "DiscordAPP",
-      techStack: ["App", "npm", "Node.js", "JavaScript"],
-      description: "A simple Discord APP made in JavaScript!",
+      techStack: ["App", "JavaScript", "Node.js", "npm"],
+      description: "A simple Discord Application made in JavaScript!",
       link: {
         label: "github.com",
         href: "https://github.com/FJrodafo/DiscordAPP",
@@ -184,7 +239,7 @@ export const RESUME_DATA = {
     },
     {
       title: "DiscordCRPS",
-      techStack: ["App", "npm", "Node.js", "JavaScript"],
+      techStack: ["App", "JavaScript", "Node.js", "npm"],
       description: "A simple Discord Custom Rich Presence Status made in JavaScript!",
       link: {
         label: "github.com",
@@ -192,17 +247,44 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "ShrikeBot",
-      techStack: ["App", "npm", "Node.js", "JavaScript"],
-      description: "A ShrikeBot clone made in JavaScript!",
+      title: "Dotfiles",
+      techStack: ["Bash", "Debian", "Linux", "Shell"],
+      description: "My Linux scripts and configs!",
       link: {
         label: "github.com",
-        href: "https://github.com/FJrodafo/ShrikeBot",
+        href: "https://github.com/FJrodafo/Dotfiles",
+      },
+    },
+    {
+      title: "FJrodafo",
+      techStack: ["FJrodafo", "Markdown", "Profile", "ReadMe"],
+      description: "This is my special repository!",
+      link: {
+        label: "github.com",
+        href: "https://github.com/FJrodafo/FJrodafo",
+      },
+    },
+    {
+      title: "FJrodafo Archive",
+      techStack: ["Archive", "FJrodafo", "Organization", "Public"],
+      description: "The FJrodafo archive repository contains old and archived projects from FJrodafo's history.",
+      link: {
+        label: "github.com",
+        href: "https://github.com/FJrodafo-Archive",
+      },
+    },
+    {
+      title: "FJrodafo.github.io",
+      techStack: ["FJrodafo", "Markdown", "ReadMe", "Website"],
+      description: "Bookmark this to keep an eye on my project updates!",
+      link: {
+        label: "github.com",
+        href: "https://github.com/FJrodafo/FJrodafo.github.io",
       },
     },
     {
       title: "KeepCalm",
-      techStack: ["App", "Bash", "Shell", "Python"],
+      techStack: ["App", "Bash", "Python", "Shell"],
       description: "A simple Python script for generating \"Keep Calm\" style images!",
       link: {
         label: "github.com",
@@ -210,12 +292,58 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "BlindSort",
-      techStack: ["Game", "TTY", "Bash", "Shell"],
-      description: "A simple terminal-based number sorting game!",
+      title: "META",
+      techStack: ["Docker", "Polylang", "Vercel", "WordPress"],
+      description: "A simple Docker Compose setup for WordPress!",
       link: {
         label: "github.com",
-        href: "https://github.com/FJrodafo/BlindSort",
+        href: "https://github.com/FJrodafo/META",
+      },
+    },
+    {
+      title: "PortFinder",
+      techStack: ["JavaScript", "npm", "Package", "Server"],
+      description: "Fast and minimalist port finder!",
+      link: {
+        label: "github.com",
+        href: "https://github.com/FJrodafo/PortFinder/pkgs/npm/port-finder",
+      },
+    },
+    {
+      title: "Portfolio",
+      techStack: ["Docker", "Javascript", "Next.js", "Website"],
+      description: "My professional minimalist portfolio!",
+      link: {
+        label: "github.com",
+        href: "https://github.com/FJrodafo/Portfolio",
+      },
+    },
+    {
+      title: "PRW DAW",
+      techStack: ["CFGS", "DAW", "Organization", "PRW"],
+      // description: "Espacio colaborativo dedicado al desarrollo del Proyecto Web del Ciclo Formativo de Grado Superior en Desarrollo de Aplicaciones Web.",
+      description: "Collaborative space dedicated to the development of the Web Project of the Higher Level Training Cycle in Web Application Development.",
+      link: {
+        label: "github.com",
+        href: "https://github.com/PRW-DAW",
+      },
+    },
+    {
+      title: "ShrikeBot",
+      techStack: ["App", "JavaScript", "Node.js", "npm"],
+      description: "A ShrikeBot clone made in JavaScript!",
+      link: {
+        label: "github.com",
+        href: "https://github.com/FJrodafo/ShrikeBot",
+      },
+    },
+    {
+      title: "Slugify",
+      techStack: ["Package", "Ruby", "RubyGems", "Utility"],
+      description: "A simple slugify gem!",
+      link: {
+        label: "github.com",
+        href: "https://github.com/FJrodafo/Slugify/pkgs/rubygems/fjrodafo-slugify",
       },
     },
     {
@@ -228,53 +356,8 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "dauntless-builder-legacy",
-      techStack: ["Contribution", "Website", "React", "TypeScript"],
-      description: "Create and share Dauntless builds with your friends!",
-      link: {
-        label: "github.com",
-        href: "https://github.com/atomicptr/dauntless-builder-legacy",
-      },
-    },
-    {
-      title: "dauntless-leaderboards",
-      techStack: ["Contribution", "Website", "Angular", "TypeScript"],
-      description: "Dauntless Gauntlet and Trial leaderboards!",
-      link: {
-        label: "github.com",
-        href: "https://github.com/PierreYvesFlamand/Dauntless-Leaderboards",
-      },
-    },
-    {
-      title: "blindsort-tty",
-      techStack: ["Contribution", "Game", "Bash", "Shell"],
-      description: "A simple terminal-based number sorting game!",
-      link: {
-        label: "github.com",
-        href: "https://github.com/m3tozz/blindsort-tty",
-      },
-    },
-    {
-      title: "PortFinder",
-      techStack: ["Package", "npm", "Server", "JavaScript"],
-      description: "Fast and minimalist port finder!",
-      link: {
-        label: "github.com",
-        href: "https://github.com/FJrodafo/PortFinder/pkgs/npm/port-finder",
-      },
-    },
-    {
-      title: "Slugify",
-      techStack: ["Package", "RubyGems", "Utility", "Ruby"],
-      description: "A simple slugify gem!",
-      link: {
-        label: "github.com",
-        href: "https://github.com/FJrodafo/Slugify/pkgs/rubygems/fjrodafo-slugify",
-      },
-    },
-    {
       title: "ToDo",
-      techStack: ["Website", "Docker", "SQL", "JavaScript"],
+      techStack: ["Docker", "JavaScript", "SQL", "Website"],
       description: "Fast and minimalist to-do app!",
       link: {
         label: "github.com",
@@ -282,86 +365,12 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Awesome",
-      techStack: ["Awesome", "Template", "ReadMe", "Markdown"],
-      description: "Awesome lists about all kinds of interesting topics!",
-      link: {
-        label: "github.com",
-        href: "https://github.com/FJrodafo/Awesome",
-      },
-    },
-    {
-      title: "FJrodafo",
-      techStack: ["FJrodafo", "Profile", "ReadMe", "Markdown"],
-      description: "This is my special repository!",
-      link: {
-        label: "github.com",
-        href: "https://github.com/FJrodafo/FJrodafo",
-      },
-    },
-    {
-      title: "FJrodafo.github.io",
-      techStack: ["FJrodafo", "Website", "ReadMe", "Markdown"],
-      description: "Bookmark this to keep an eye on my project updates!",
-      link: {
-        label: "github.com",
-        href: "https://github.com/FJrodafo/FJrodafo.github.io",
-      },
-    },
-    {
-      title: "FJrodafo Archive",
-      techStack: ["Organization", "FJrodafo", "Public", "Archive"],
-      description: "The FJrodafo archive repository contains old and archived projects from FJrodafo's history.",
-      link: {
-        label: "github.com",
-        href: "https://github.com/FJrodafo-Archive",
-      },
-    },
-    {
-      title: "PRW DAW",
-      techStack: ["Organization", "PRW", "CFGS", "DAW"],
-      // description: "Espacio colaborativo dedicado al desarrollo del Proyecto Web del Ciclo Formativo de Grado Superior en Desarrollo de Aplicaciones Web.",
-      description: "Collaborative space dedicated to the development of the Web Project of the Higher Level Training Cycle in Web Application Development.",
-      link: {
-        label: "github.com",
-        href: "https://github.com/PRW-DAW",
-      },
-    },
-    {
-      title: "DevHub",
-      techStack: ["Website", "Docker", "React", "Laravel"],
-      // description: "¡Tu espacio para registrar, mostrar y destacar tus proyectos, llevando tu desarrollo profesional al siguiente nivel!",
-      description: "Your space to register, showcase and highlight your projects, taking your professional development to the next level!",
-      link: {
-        label: "github.com",
-        href: "https://github.com/PRW-DAW/DevHub",
-      },
-    },
-    {
       title: "University",
-      techStack: ["Cheat-sheets", "Learning", "Languages", "Exercises"],
+      techStack: ["CheatSheets", "Exercises", "Languages", "Learning"],
       description: "A library of basic concepts!",
       link: {
         label: "github.com",
         href: "https://github.com/FJrodafo/University",
-      },
-    },
-    {
-      title: "Portfolio",
-      techStack: ["Website", "Docker", "Next.js", "Javascript"],
-      description: "My professional minimalist portfolio!",
-      link: {
-        label: "github.com",
-        href: "https://github.com/FJrodafo/Portfolio",
-      },
-    },
-    {
-      title: "CV",
-      techStack: ["Website", "Docker", "Next.js", "Typescript"],
-      description: "My professional minimalist curriculum vitae!",
-      link: {
-        label: "github.com",
-        href: "https://github.com/FJrodafo/CV",
       },
     },
   ],
