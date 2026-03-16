@@ -203,7 +203,7 @@ export const RESUME_DATA = {
     {
       title: "KeepCalm",
       techStack: ["App", "Bash", "Shell", "Python"],
-      description: "A simple script for generating \"Keep Calm\" messages!",
+      description: "A simple Python script for generating \"Keep Calm\" style images!",
       link: {
         label: "github.com",
         href: "https://github.com/FJrodafo/KeepCalm",
