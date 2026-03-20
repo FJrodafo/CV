@@ -8,37 +8,82 @@ import { Summary } from "@/app/components/Summary";
 import { Skills } from "@/app/components/Skills";
 import { Header } from "@/app/components/Header";
 
-const SITE_URL = "https://fjrodafo-cv.vercel.app/";
-const AVATAR_URL = "https://avatars.githubusercontent.com/u/126250262?v=4";
-
 export const metadata: Metadata = {
+  metadataBase: new URL("https://fjrodafo-cv.vercel.app/"),
+  applicationName: "FJrodafo's Curriculum Vitae",
   title: {
-    default: RESUME_DATA.name,
-    template: "%s | FJrodafo",
+    default: 'FJrodafo (Francisco José Rodríguez Afonso)',
+    template: '%s | Curriculum Vitae',
   },
-  description: RESUME_DATA.about,
+  description: "Full-Stack web application developer, musician, trumpeter and pianist from the Canary Islands.",
+  creator: "Francisco José Rodríguez Afonso",
+  publisher: "Francisco José Rodríguez Afonso",
+  authors: [
+    {
+      name: "Francisco José Rodríguez Afonso",
+      url: "https://fjrodafo-cv.vercel.app/",
+    },
+  ],
+  keywords: [
+    "fjrodafo",
+    "website",
+    "cv",
+    "curriculum",
+    "vitae",
+    "developer",
+    'musician',
+    'trumpeter',
+    'pianist',
+    'canary',
+    'islands',
+    "vercel",
+    "next",
+    "nextjs",
+    "typescript",
+  ],
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
+  },
   openGraph: {
-    title: `${RESUME_DATA.name} | ${RESUME_DATA.initials}`,
-    description: RESUME_DATA.about,
-    url: SITE_URL,
-    siteName: "FJrodafo's Curriculum Vitae",
     locale: "en_US",
     type: "website",
+    siteName: "FJrodafo's Curriculum Vitae",
+    url: "https://fjrodafo-cv.vercel.app/",
+    title: {
+      default: 'FJrodafo (Francisco José Rodríguez Afonso)',
+      template: '%s | Curriculum Vitae',
+    },
+    description: "Full-Stack web application developer, musician, trumpeter and pianist from the Canary Islands.",
     images: [
       {
-        url: AVATAR_URL,
-        width: 1200,
-        height: 1200,
+        url: "https://avatars.githubusercontent.com/u/126250262",
+        width: 460,
+        height: 460,
         alt: "FJrodafo's Avatar",
       },
     ],
   },
   twitter: {
     card: "summary",
-    title: `${RESUME_DATA.name} | ${RESUME_DATA.initials}`,
-    description: RESUME_DATA.about,
     creator: "@fjrodafo",
-    images: [AVATAR_URL],
+    title: {
+      default: 'FJrodafo (Francisco José Rodríguez Afonso)',
+      template: '%s | Curriculum Vitae',
+    },
+    description: "Full-Stack web application developer, musician, trumpeter and pianist from the Canary Islands.",
+    images: ["https://avatars.githubusercontent.com/u/126250262"],
+  },
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
   },
 };
 
@@ -69,7 +114,7 @@ export default function ResumePage() {
   return (
     <main className="container relative mx-auto scroll-my-12 overflow-auto p-4 print:p-11 md:p-16" id="main-content">
       <div className="sr-only">
-        <h1>{RESUME_DATA.name}&apos;s Resume</h1>
+        <h1>{RESUME_DATA.initials}&apos;s Resume</h1>
       </div>
       <section className="mx-auto w-full max-w-2xl space-y-8 bg-white print:space-y-4" aria-label="Resume Content">
         <Header />
