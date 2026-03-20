@@ -30,6 +30,10 @@ export const RESUME_DATA = {
         url: "https://gitlab.com/FJrodafo",
       },
       {
+        name: "Docker Hub",
+        url: "https://hub.docker.com/u/fjrodafo",
+      },
+      {
         name: "npmjs",
         url: "https://www.npmjs.com/~fjrodafo",
       },
@@ -38,8 +42,8 @@ export const RESUME_DATA = {
         url: "https://rubygems.org/profiles/FJrodafo",
       },
       {
-        name: "Docker Hub",
-        url: "https://hub.docker.com/u/fjrodafo",
+        name: "NuGet",
+        url: "https://www.nuget.org/profiles/FJrodafo",
       },
       {
         name: "Crowdin",
@@ -125,6 +129,7 @@ export const RESUME_DATA = {
   ],
   skills: [
     "AHK",
+    "Apache Maven",
     "Bash",
     "Blade",
     "CSS",
@@ -142,7 +147,9 @@ export const RESUME_DATA = {
     "Next.js",
     "Nginx",
     "Node.js",
+    "NuGet",
     "npm",
+    "Odoo",
     "PHP",
     "PostgreSQL",
     "Python",
@@ -162,6 +169,7 @@ export const RESUME_DATA = {
     "XSL",
     "XSLT",
     "YAML",
+    ".NET",
   ],
   projects: [
     {
@@ -289,15 +297,6 @@ export const RESUME_DATA = {
       link: {
         label: "github.com",
         href: "https://github.com/FJrodafo/KeepCalm",
-      },
-    },
-    {
-      title: "META",
-      techStack: ["Docker", "Polylang", "Vercel", "WordPress"],
-      description: "A simple Docker Compose setup for WordPress!",
-      link: {
-        label: "github.com",
-        href: "https://github.com/FJrodafo/META",
       },
     },
     {
