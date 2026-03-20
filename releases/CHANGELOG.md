@@ -24,7 +24,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ### Fixed
 
-- ...
+- The title and description are missing from line 29 of the command.tsx file. [[Link](https://github.com/FJrodafo/CV/blob/main/src/components/ui/command.tsx#L29)]
 
 ### Security
 
