@@ -8,7 +8,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ### Added
 
-- This CHANGELOG.md to track all notable changes to this project going forward.
+- This [`CHANGELOG.md`](https://github.com/FJrodafo/CV/blob/main/releases/CHANGELOG.md) to track all notable changes to this project going forward.
 - A configuration file for GitHub Pages documents. [`docs/_config.yaml`](https://github.com/FJrodafo/CV/blob/main/docs/_config.yaml)
 
 ### Changed
