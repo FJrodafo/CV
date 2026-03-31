@@ -40,6 +40,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 ### Changed
 
 - The files [`CODE_OF_CONDUCT.md`](https://github.com/FJrodafo/CV/blob/main/docs/CODE_OF_CONDUCT.md) and [`SECURITY.md`](https://github.com/FJrodafo/CV/blob/main/docs/SECURITY.md) have been moved from the [`.github`](https://github.com/FJrodafo/CV/tree/main/.github) directory to [`docs`](https://github.com/FJrodafo/CV/tree/main/docs).
+- Improved version of [`README.md`](https://github.com/FJrodafo/CV/blob/main/docs/README.md).
 
 ### Fixed
 
