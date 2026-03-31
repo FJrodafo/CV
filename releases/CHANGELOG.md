@@ -9,10 +9,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 ### Added
 
 - This CHANGELOG.md to track all notable changes to this project going forward.
+- A configuration file for GitHub Pages documents. [`docs/_config.yaml`](https://github.com/FJrodafo/CV/blob/main/docs/_config.yaml)
 
 ### Changed
 
-- The files `CODE_OF_CONDUCT.md` and `SECURITY.md` have been moved from the `.github` directory to `docs`.
+- The files [`CODE_OF_CONDUCT.md`](https://github.com/FJrodafo/CV/blob/main/docs/CODE_OF_CONDUCT.md) and [`SECURITY.md`](https://github.com/FJrodafo/CV/blob/main/docs/SECURITY.md) have been moved from the [`.github`](https://github.com/FJrodafo/CV/tree/main/.github) directory to [`docs`](https://github.com/FJrodafo/CV/tree/main/docs).
 
 ### Deprecated
 
