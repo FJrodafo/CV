@@ -62,30 +62,16 @@ export const RESUME_DATA = {
         url: "https://discord.com/users/1259949570964590705",
       },
       {
+        name: "Monkeytype",
+        url: "https://monkeytype.com/profile/FJrodafo",
+      },
+      {
         name: "Gravatar",
         url: "https://gravatar.com/fjrodafo",
       },
     ],
   },
   experience: [
-    {
-      company: "META Channel Corporation",
-      link: "https://metachannelcorp.com/",
-      badges: ["Remote", "Internship"],
-      title: "Web Application Developer",
-      start: "2026",
-      end: "Present",
-      description: (
-        <>
-          {/*Despacho jurídico internacional que convierte complejidad regulatoria en escalabilidad internacional. Especialistas en AI Act, MiCA, DORA, tokenización y M&amp;A transfronterizo.*/}
-          International law firm that transforms regulatory complexity into global scalability. Specialists in AI Act, MiCA, DORA, tokenization, and cross-border M&A.
-          <ul className="list-inside list-disc">
-            <li>Web Content Accessibility Guidelines (WCAG)</li>
-            <li>Search Engine Optimization (SEO)</li>
-          </ul>
-        </>
-      ),
-    },
     {
       company: "OFT - Orquesta Filarmónica de Tenerife",
       link: "https://www.facebook.com/orquestafilarmonicadetenerife/",
@@ -97,6 +83,26 @@ export const RESUME_DATA = {
         <>
           {/*La OFT, compuesta por jóvenes músicos de entre 18 y 25 años, que provienen de la OFJT-MJ y de otros ámbitos de la realidad musical y cultura de nuestra comunidad, materializa el objetivo fundacional de PROMUCAN: la promoción de los jóvenes músicos de Canarias.*/}
           The OFT, made up of young musicians between the ages of 18 and 25, who come from the OFJT-MJ and other areas of the musical and cultural scene in our community, embodies PROMUCAN&apos;s founding objective: the promotion of young musicians in the Canary Islands.
+          {/*
+          <ul className="list-inside list-disc">
+            <li>Temp</li>
+            <li>Temp</li>
+          </ul>
+          */}
+        </>
+      ),
+    },
+    {
+      company: "META Channel Corporation",
+      link: "https://metachannelcorp.com/",
+      badges: ["Remote", "Internship"],
+      title: "Web Application Developer",
+      start: "2026",
+      end: "2026",
+      description: (
+        <>
+          {/*Despacho jurídico internacional que convierte complejidad regulatoria en escalabilidad internacional. Especialistas en AI Act, MiCA, DORA, tokenización y M&amp;A transfronterizo.*/}
+          International law firm that transforms regulatory complexity into global scalability. Specialists in AI Act, MiCA, DORA, tokenization, and cross-border M&A.
           {/*
           <ul className="list-inside list-disc">
             <li>Temp</li>
@@ -140,9 +146,11 @@ export const RESUME_DATA = {
     "HTML",
     "Java",
     "JavaScript",
+    "Jekyll",
     "JSON",
     "Laravel",
     "Linux",
+    "Markdown",
     "MySQL",
     "Next.js",
     "Nginx",
@@ -161,6 +169,7 @@ export const RESUME_DATA = {
     "SQL",
     "SQLite",
     "TypeScript",
+    "Vite",
     "WordPress",
     "XML",
     "XPath",
@@ -173,8 +182,17 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
+      title: ".github",
+      techStack: ["markdown", "yaml", "issues", "pull-requests"],
+      description: "This is another special repository!",
+      link: {
+        label: "github.com",
+        href: "https://github.com/FJrodafo/Awesome",
+      },
+    },
+    {
       title: "Awesome",
-      techStack: ["Awesome", "Markdown", "ReadMe", "Template"],
+      techStack: ["markdown", "template", "readme", "awesome"],
       description: "Awesome lists about all kinds of interesting topics!",
       link: {
         label: "github.com",
@@ -183,7 +201,7 @@ export const RESUME_DATA = {
     },
     {
       title: "BlindSort",
-      techStack: ["Bash", "Game", "Shell", "TTY"],
+      techStack: ["game", "shell", "bash", "tty"],
       description: "A simple terminal-based number sorting game!",
       link: {
         label: "github.com",
@@ -192,7 +210,7 @@ export const RESUME_DATA = {
     },
     {
       title: "blindsort-tty",
-      techStack: ["Bash", "Contribution", "Game", "Shell"],
+      techStack: ["game", "shell", "bash", "tty"],
       description: "A simple terminal-based number sorting game!",
       link: {
         label: "github.com",
@@ -200,9 +218,18 @@ export const RESUME_DATA = {
       },
     },
     {
+      title: "Clara",
+      techStack: ["python", "terminal", "ai", "assistant"],
+      description: "Open-source AI assistant directly from the terminal!",
+      link: {
+        label: "github.com",
+        href: "https://github.com/FJrodafo/Clara",
+      },
+    },
+    {
       title: "CV",
-      techStack: ["Docker", "Next.js", "Typescript", "Website"],
-      description: "My professional minimalist curriculum vitae!",
+      techStack: ["docker", "website", "typescript", "nextjs"],
+      description: "My professional minimalist curriculum vitae website!",
       link: {
         label: "github.com",
         href: "https://github.com/FJrodafo/CV",
@@ -210,7 +237,7 @@ export const RESUME_DATA = {
     },
     {
       title: "dauntless-builder-legacy",
-      techStack: ["Contribution", "React", "TypeScript", "Website"],
+      techStack: ["contribution", "react", "typescript", "website"],
       description: "Create and share Dauntless builds with your friends!",
       link: {
         label: "github.com",
@@ -219,7 +246,7 @@ export const RESUME_DATA = {
     },
     {
       title: "dauntless-leaderboards",
-      techStack: ["Angular", "Contribution", "TypeScript", "Website"],
+      techStack: ["angular", "contribution", "typescript", "website"],
       description: "Dauntless Gauntlet and Trial leaderboards!",
       link: {
         label: "github.com",
@@ -228,8 +255,7 @@ export const RESUME_DATA = {
     },
     {
       title: "DevHub",
-      techStack: ["Docker", "Laravel", "React", "Website"],
-      // description: "¡Tu espacio para registrar, mostrar y destacar tus proyectos, llevando tu desarrollo profesional al siguiente nivel!",
+      techStack: ["react", "docker", "website", "laravel"],
       description: "Your space to register, showcase and highlight your projects, taking your professional development to the next level!",
       link: {
         label: "github.com",
@@ -238,8 +264,8 @@ export const RESUME_DATA = {
     },
     {
       title: "DiscordAPP",
-      techStack: ["App", "JavaScript", "Node.js", "npm"],
-      description: "A simple Discord Application made in JavaScript!",
+      techStack: ["nodejs", "docker", "npm", "discordjs"],
+      description: "A simple Discord APP made in JavaScript!",
       link: {
         label: "github.com",
         href: "https://github.com/FJrodafo/DiscordAPP",
@@ -247,7 +273,7 @@ export const RESUME_DATA = {
     },
     {
       title: "DiscordCRPS",
-      techStack: ["App", "JavaScript", "Node.js", "npm"],
+      techStack: ["nodejs", "javascript", "npm", "app"],
       description: "A simple Discord Custom Rich Presence Status made in JavaScript!",
       link: {
         label: "github.com",
@@ -256,8 +282,8 @@ export const RESUME_DATA = {
     },
     {
       title: "Dotfiles",
-      techStack: ["Bash", "Debian", "Linux", "Shell"],
-      description: "My Linux scripts and configs!",
+      techStack: ["linux", "shell", "bash", "debian"],
+      description: "My Linux config files!",
       link: {
         label: "github.com",
         href: "https://github.com/FJrodafo/Dotfiles",
@@ -265,7 +291,7 @@ export const RESUME_DATA = {
     },
     {
       title: "FJrodafo",
-      techStack: ["FJrodafo", "Markdown", "Profile", "ReadMe"],
+      techStack: ["markdown", "readme", "profile", "fjrodafo"],
       description: "This is my special repository!",
       link: {
         label: "github.com",
@@ -273,17 +299,17 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "FJrodafo Archive",
-      techStack: ["Archive", "FJrodafo", "Organization", "Public"],
+      title: "FJrodafoArchive",
+      techStack: ["fjrodafo", "archive", "public", "organization"],
       description: "The FJrodafo archive repository contains old and archived projects from FJrodafo's history.",
       link: {
         label: "github.com",
-        href: "https://github.com/FJrodafo-Archive",
+        href: "https://github.com/FJrodafoArchive",
       },
     },
     {
       title: "FJrodafo.github.io",
-      techStack: ["FJrodafo", "Markdown", "ReadMe", "Website"],
+      techStack: ["pages", "markdown", "readme", "fjrodafo"],
       description: "Bookmark this to keep an eye on my project updates!",
       link: {
         label: "github.com",
@@ -292,7 +318,7 @@ export const RESUME_DATA = {
     },
     {
       title: "KeepCalm",
-      techStack: ["App", "Bash", "Python", "Shell"],
+      techStack: ["python", "shell", "bash", "app"],
       description: "A simple Python script for generating \"Keep Calm\" style images!",
       link: {
         label: "github.com",
@@ -300,37 +326,45 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "PortFinder",
-      techStack: ["JavaScript", "npm", "Package", "Server"],
-      description: "Fast and minimalist port finder!",
+      title: "META",
+      techStack: ["docker", "wordpress", "website", "vercel"],
+      description: "A simple Docker setup for WordPress!",
       link: {
         label: "github.com",
-        href: "https://github.com/FJrodafo/PortFinder/pkgs/npm/port-finder",
+        href: "https://github.com/FJrodafo/META",
+      },
+    },
+    {
+      title: "MetaChannelCorp",
+      techStack: ["docker", "odoo", "python", "telegram"],
+      description: "International law firm that transforms regulatory complexity into global scalability. Specialists in AI Act, MiCA, DORA, tokenization, and cross-border M&A.",
+      link: {
+        label: "github.com",
+        href: "https://github.com/MetaChannelCorp",
+      },
+    },
+    {
+      title: "PortFinder",
+      techStack: ["javascript", "npm", "package", "server"],
+      description: "Fast and minimalist port finder npm package!",
+      link: {
+        label: "github.com",
+        href: "https://github.com/FJrodafo/PortFinder",
       },
     },
     {
       title: "Portfolio",
-      techStack: ["Docker", "Javascript", "Next.js", "Website"],
-      description: "My professional minimalist portfolio!",
+      techStack: ["javascript", "docker", "website", "nextjs"],
+      description: "My professional minimalist portfolio website!",
       link: {
         label: "github.com",
         href: "https://github.com/FJrodafo/Portfolio",
       },
     },
     {
-      title: "PRW DAW",
-      techStack: ["CFGS", "DAW", "Organization", "PRW"],
-      // description: "Espacio colaborativo dedicado al desarrollo del Proyecto Web del Ciclo Formativo de Grado Superior en Desarrollo de Aplicaciones Web.",
-      description: "Collaborative space dedicated to the development of the Web Project of the Higher Level Training Cycle in Web Application Development.",
-      link: {
-        label: "github.com",
-        href: "https://github.com/PRW-DAW",
-      },
-    },
-    {
       title: "ShrikeBot",
-      techStack: ["App", "JavaScript", "Node.js", "npm"],
-      description: "A ShrikeBot clone made in JavaScript!",
+      techStack: ["nodejs", "docker", "npm", "discordjs"],
+      description: "A simple ShrikeBot clone made in JavaScript!",
       link: {
         label: "github.com",
         href: "https://github.com/FJrodafo/ShrikeBot",
@@ -338,16 +372,34 @@ export const RESUME_DATA = {
     },
     {
       title: "Slugify",
-      techStack: ["Package", "Ruby", "RubyGems", "Utility"],
+      techStack: ["ruby", "rubygems", "package", "utility"],
       description: "A simple slugify gem!",
       link: {
         label: "github.com",
-        href: "https://github.com/FJrodafo/Slugify/pkgs/rubygems/fjrodafo-slugify",
+        href: "https://github.com/FJrodafo/Slugify",
       },
     },
     {
-      title: "ThraxBoT",
-      techStack: ["Contribution", "Docker", "Python", "Shell"],
+      title: "Templates",
+      techStack: ["template", "repository", "templates", "fjrodafo"],
+      description: "My template repository!",
+      link: {
+        label: "github.com",
+        href: "https://github.com/FJrodafo/Templates",
+      },
+    },
+    {
+      title: "Test",
+      techStack: ["git", "experiment", "practice", "test"],
+      description: "A repository for trying out new things!",
+      link: {
+        label: "github.com",
+        href: "https://github.com/FJrodafo/Test",
+      },
+    },
+    {
+      title: "ThraxBot",
+      techStack: ["contribution", "docker", "python", "shell"],
       description: "Utility Discord Bot for community server Thrax Enjoyers!",
       link: {
         label: "github.com",
@@ -356,17 +408,17 @@ export const RESUME_DATA = {
     },
     {
       title: "ToDo",
-      techStack: ["Docker", "JavaScript", "SQL", "Website"],
+      techStack: ["javascript", "docker", "website", "sql"],
       description: "Fast and minimalist to-do app!",
       link: {
         label: "github.com",
-        href: "https://github.com/FJrodafo/ToDo/pkgs/container/to-do",
+        href: "https://github.com/FJrodafo/ToDo",
       },
     },
     {
       title: "University",
-      techStack: ["CheatSheets", "Exercises", "Languages", "Learning"],
-      description: "A library of basic concepts!",
+      techStack: ["cheat-sheets", "learning", "languages", "exercises"],
+      description: "A repository of basic concepts!",
       link: {
         label: "github.com",
         href: "https://github.com/FJrodafo/University",
