@@ -20,9 +20,13 @@ jobs:
       # Build artifacts
       - name: Build artifacts
         run: |
-          zip -r ${{ env.ARTIFACT }}-${{ github.ref_name }}.zip docs/ public/ src/ CONTRIBUTING LICENSE components.json docker-compose.yaml Dockerfile next.config.mjs package-lock.json package.json postcss.config.mjs tailwind.config.ts tsconfig.json
+          git archive --format=zip --prefix=${{ env.ARTIFACT }}-${{ github.ref_name }}/ \
+            -o ${{ env.ARTIFACT }}-${{ github.ref_name }}.zip \
+            HEAD
+          git archive --format=tar.gz --prefix=${{ env.ARTIFACT }}-${{ github.ref_name }}/ \
+            -o ${{ env.ARTIFACT }}-${{ github.ref_name }}.tar.gz \
+            HEAD
           unzip -l ${{ env.ARTIFACT }}-${{ github.ref_name }}.zip
-          tar -czvf ${{ env.ARTIFACT }}-${{ github.ref_name }}.tar.gz docs/ public/ src/ CONTRIBUTING LICENSE components.json docker-compose.yaml Dockerfile next.config.mjs package-lock.json package.json postcss.config.mjs tailwind.config.ts tsconfig.json
           tar -tzvf ${{ env.ARTIFACT }}-${{ github.ref_name }}.tar.gz
       # Create GitHub Release
       - name: Create GitHub Release
