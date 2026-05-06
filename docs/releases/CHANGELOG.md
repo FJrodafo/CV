@@ -8,11 +8,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ### Added
 
-- ...
+- New social network (Monkeytype).
+- New skills (Jekyll, Markdown and Vite).
+- New projects (.github, Clara, META and MetaChannelCorp).
+- All labels in the project's technology stack were changed to lowercase.
 
 ### Changed
 
-- ...
+- Experience order (Completion of the internship period at META Channel Corporation).
+- Restructuring of the projects section.
 
 ### Deprecated
 
