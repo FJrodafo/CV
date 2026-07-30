@@ -115,6 +115,12 @@ export const RESUME_DATA = {
   ],
   education: [
     {
+      school: "ULL - Universidad de La Laguna",
+      degree: "Master's degree in teaching, Music",
+      start: "2026",
+      end: "2027",
+    },
+    {
       school: "IES Puerto de la Cruz - Telesforo Bravo",
       degree: "Web Application Development",
       start: "2022",
