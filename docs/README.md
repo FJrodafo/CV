@@ -17,8 +17,6 @@
 4. [Install dependencies](#install-dependencies)
 5. [Final steps](#final-steps)
 6. [Using Docker](#using-docker)
-    1. [Run with Docker Compose (Recommended)](#run-with-docker-compose-recommended)
-    2. [Build Docker image manually](#build-docker-image-manually)
 7. [Learn More](#learn-more)
 8. [Deploy on Vercel](#deploy-on-vercel)
 9. [Credits](#credits)
