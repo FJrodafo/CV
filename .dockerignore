@@ -25,3 +25,6 @@
 /.dockerignore
 /Dockerfile
 /docker-compose.yaml
+
+# Secrets
+/.env
