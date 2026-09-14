@@ -15,6 +15,7 @@ COPY package*.json ./
 RUN npm install
 
 # Copy local code to the container image.
+# NOTE: Do NOT include secrets inside the image. Use .dockerignore to exclude .env files and provide environment variables at runtime.
 COPY . .
 
 # Build the app
