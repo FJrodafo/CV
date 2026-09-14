@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://fjrodafo-cv.vercel.app/"),
   applicationName: "FJrodafo's Curriculum Vitae",
   title: {
-    default: 'FJrodafo (Francisco José Rodríguez Afonso)',
+    default: 'FJrodafo | Curriculum Vitae',
     template: '%s | Curriculum Vitae',
   },
   description: "Full-Stack web application developer, musician, trumpeter and pianist from the Canary Islands.",
@@ -58,7 +58,7 @@ export const metadata: Metadata = {
     siteName: "FJrodafo's Curriculum Vitae",
     url: "https://fjrodafo-cv.vercel.app/",
     title: {
-      default: 'FJrodafo (Francisco José Rodríguez Afonso)',
+      default: 'FJrodafo | Curriculum Vitae',
       template: '%s | Curriculum Vitae',
     },
     description: "Full-Stack web application developer, musician, trumpeter and pianist from the Canary Islands.",
@@ -75,7 +75,7 @@ export const metadata: Metadata = {
     card: "summary",
     creator: "@fjrodafo",
     title: {
-      default: 'FJrodafo (Francisco José Rodríguez Afonso)',
+      default: 'FJrodafo | Curriculum Vitae',
       template: '%s | Curriculum Vitae',
     },
     description: "Full-Stack web application developer, musician, trumpeter and pianist from the Canary Islands.",
