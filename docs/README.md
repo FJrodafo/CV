@@ -32,10 +32,7 @@ This project has been developed on a [Linux](https://github.com/torvalds/linux) 
 ```
 /
 ├── docs/
-|   ├── _config.yaml
-|   ├── CODE_OF_CONDUCT.md
-|   ├── README.md
-|   └── SECURITY.md
+|   └── *.md
 ├── public/
 │   ├── icons/
 │   │   └── *.svg
@@ -79,11 +76,13 @@ Open a terminal in the directory where you store your repositories and clone it 
 ```shell
 # HTTPS
 git clone https://github.com/FJrodafo/CV.git
+cd CV/
 ```
 
 ```shell
 # SSH
 git clone git@github.com:FJrodafo/CV.git
+cd CV/
 ```
 
 ## Install dependencies
