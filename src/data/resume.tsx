@@ -116,7 +116,7 @@ export const RESUME_DATA = {
   education: [
     {
       school: "ULL - Universidad de La Laguna",
-      degree: "Master's degree in teaching, Music",
+      degree: "Master's degree in education, Music",
       start: "2026",
       end: "2027",
     },
