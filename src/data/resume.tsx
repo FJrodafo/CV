@@ -5,7 +5,7 @@ export const RESUME_DATA = {
   initials: "FJrodafo",
   location: "La Orotava, Canary Islands, Spain",
   locationLink: "https://www.google.com/maps/place/Canarias",
-  about: "Full-Stack web application developer, musician, trumpeter and pianist from the Canary Islands.",
+  about: "Full-Stack web application developer, musician, trumpeter and professor from the Canary Islands.",
   summary: "As a Full-Stack web application developer, I design and develop both the frontend and backend, providing comprehensive and satisfying solutions for my clients.",
   avatarUrl: "https://avatars.githubusercontent.com/u/126250262?v=4",
   personalWebsiteUrl: "https://fjrodafo.vercel.app/",
